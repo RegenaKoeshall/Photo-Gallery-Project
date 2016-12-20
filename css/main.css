@@ -1,0 +1,68 @@
+body {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+  background: white;
+ 
+}
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+}
+h1 {
+  font-size: 1.75em;
+  font-weight: 500;
+  
+  text-align: center;
+  color: lightblue;
+}
+
+ul li {
+  list-style-type: none;
+}
+.top-header {
+  width: 100%;
+  background-color: black;
+  height: 100px;
+}
+.grid {
+  width: 29.3333%;
+  margin: 2%;
+  float: left;
+}
+.group {
+  width: 100%;
+  text-align: center;
+}
+ul {
+  padding: 0;
+}
+li {
+  display: inline-block;
+  width: 27.3333%;
+  margin: 2%;
+}
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: center;
+  line-height: 1.1em;
+}
+
+@media(max-width: 440px){
+  .wrap {
+    width: 90%;
+}
+  li {
+  display: block;
+  margin-left:25%;
+  
+} 
+
+}
+  
+  
+  
+  
+  
+
